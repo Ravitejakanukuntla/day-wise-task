@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+      
+#myForm label {
+  display: inline-block;
+  text-align: right;
+  clear: left;
+  width: 525px;
+  text-align: right; 
+}
+#myForm input {
+  display: inline-block;
+  text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+  
+  <form action="">
+  <div id="myForm" >
+    <center><h1>Registration Form</h1></center>
+    <label for="Username" >Username</label>
+    <input type="text"><br>
+    <label for="PASSWORD" >Password</label>
+    <input type="password" required><br>
+    <label for="PASSWORD" >Confirm Password</label>
+    <input type="password" required><br>
+    <label for="Fname">First Name</label>
+  <input type="text" name="Fname" required><br>
+  <label for="Lname">Last Name</label>
+  <input type="text" name="Lname" required><br>
+  <label for="email">Email</label>
+  <input type="email" name="email" required><br>
+  <label for="Phone No">Phone No</label>
+  <input type="tel" name="Phone No" maxlength="10" required><br>
+  <label for="Location">Location</label>
+  <input type="text" name="Location" id="Location" required><br>
+  <center><input type="submit" value="Save">
+  <input type="reset"></center>
+</div>
+</form>
+</body>
+</html>
