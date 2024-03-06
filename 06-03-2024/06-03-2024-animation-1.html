@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin-top:400px;
+            background-color: aqua;
+            animation-name: name;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+          /*animation-iteration-count: infinite;*/
+            
+
+        }
+
+        @keyframes name{
+            0%{
+                margin-top: 400px;
+                transform:rotate(0deg);
+                background-color: aquamarine;
+                border-style: solid;
+            }
+            25%{
+                margin-top:300px;
+                transform: rotate(75deg);
+                background-color: burlywood;
+                border-style: ridge;
+            }
+
+            50%{
+                margin-top:200px;
+                transform: rotate(120deg);
+                background-color: yellow;
+                border-style: double;
+            }
+
+            75%{
+                margin-top:100px;
+                transform: rotate(220deg);
+                background-color: violet;
+                border-style: dashed;
+            }
+
+            100%{
+                margin-top:0px;
+                transform: rotate(360deg);
+                border-style: groove;
+            }
+
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>R</div>
+    <div>A</div>
+    <div>V</div>
+    <div>I</div>
+    <div>T</div>
+    <div>E</div>
+    <div>J</div>
+    <div>A</div>
+    
+</body>
+</html>
